@@ -1,0 +1,171 @@
+:root {
+  --primary-text-color: #757575; /*основной цвет текста*/
+  --dark-background-color: #2f303a; /*темный фон*/
+  --title-button-text-color: #212121; /*текст кнопок и заглавий*/
+  --background-button-color: #f5f4fa; /*фон кнопок*/
+  --secondary-color: #ffffff; /*вторичный цвет*/
+  --accent-text-color: #2196f3; /*цвет текста и фон кнопок при наведении*/
+  --primary-font: 'Roboto', sans-serif;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  background-color: var(--secondary-color);
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo .logo-part {
+  color: var(--accent-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.site-nav .link {
+  color: var(--title-button-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+.site-nav .current {
+  color: var(--accent-text-color);
+}
+
+.hero {
+  background-color: var(--dark-background-color);
+  color: var(--secondary-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.button {
+  font-family: inherit;
+  background-color: var(--accent-text-color);
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--title-button-text-color);
+  background-color: var(--background-button-color);
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--secondary-color);
+  background-color: var(--accent-text-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-button-text-color);
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-button-text-color);
+}
+
+.team-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-item-name {
+  font-weight: 500;
+  color: var(--title-button-text-color);
+}
+
+.project-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-button-text-color);
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.section-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-color);
+  background-color: var(--dark-background-color);
+}
+
+.section-footer .logo,
+.section-footer .text-address {
+  color: var(--secondary-color);
+}
+
+.text-address {
+  font-style: normal;
+}
+
+.footer-contacts-list {
+  font-style: normal;
+  list-style: none;
+}
